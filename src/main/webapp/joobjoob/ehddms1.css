@@ -1,0 +1,121 @@
+@charset "EUC-KR";
+@font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    *{ padding: 0; margin: 0; box-sizing: border-box; }
+    a{ text-decoration: none; color: #333; }
+    li{ list-style: none; }
+    img{ border: none; vertical-align: top; }
+    body{ font-family: 'Pretendard-Regular'; }
+    .clearfix::after{ content: ''; display: block; clear: both; }
+
+    /* header 영역 css */
+
+    .gnb{
+        width: 100%;
+        height: 50px;
+        background-color: #000;
+        color: #fff;
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    .gnb_left{
+        width: 25%;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .gnb_center{
+        width: 50%;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .gnb_right{
+        width: 25%;
+    }
+
+    .gnb_right ul{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .gnb a{
+        color: #fff;
+        line-height: 50px;
+    }
+
+    .main_logo{
+        width: 100%;
+        height: 120px;
+        text-align: center;
+    }
+
+    .main_logo img{
+        padding-top: 34px;
+    }
+
+    .lnb ul{
+        display: flex;
+        font-size: 20px;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .lnb a{
+        line-height: 25px;
+        font-weight: 600;
+    }
+
+    .lnb a:hover{
+        color: #ed3124;
+    }
+
+    header{
+        border-bottom: 3px solid #000;
+        padding-bottom: 15px;
+    }
+
+    
+ /* footer css */
+    
+    footer{
+        width: 100%;
+        border-top: 3px solid #000;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer_left{
+       width: 600px;
+    }
+    
+    .footer_right{
+       width: 600px;
+       text-align: right;
+    }
+    
+    .footer_FAQ:hover{
+       color: #ed3124;
+    }
+    
+    /* setion 영역 css */
+
+    section{
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    .main_wrapper{
+        width: 1200px;
+        margin: auto;
+    }
+    
+    
